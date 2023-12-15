@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <style>
+        h5 { text-align: center;}
+    </style>
+</head>
+<body>
+    <br><br>
+    <div align="center">
+    <img src="{{url_for('static', filename='images/home.jpg')}}" />
+    <br><br>
+    <table border = "0" cellpadding = "10" cellspacing = "10">
+        <tr>
+        <td>
+            <a href = "\enternew">
+            <img src="{{url_for('static', filename='images/register.jpg')}}" /></a>
+        </td>
+         <td>
+            <a href = "\update">
+            <img src="{{url_for('static', filename='images/update.jpg')}}" /></a>
+        </td>
+        <td>
+            <a href = "\remove">
+            <img src="{{url_for('static', filename='images/delete.jpg')}}" /></a>
+        </td>
+        </tr>
+    </table><br><br><br>
+
+    <table border = "1" cellpadding = "5" cellspacing = "5">
+     <thead>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Position</td>
+     </thead>
+     {% for row in rows %}
+        <tr>
+           {% for data in row %}
+              <td>{{ data }}</td>
+           {% endfor %}
+        </tr>
+     {% endfor %}
+    </table>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h5>   {{ msg }} </h5>
+</body>
+</html>

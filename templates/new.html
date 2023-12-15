@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+   <body>
+   <br>
+   <div align="center">
+      <a href = "\staff">
+            <img src="{{url_for('static', filename='images/dashboard.jpg')}}" />
+      </a>
+      <form name="form1" action = "{{ url_for('register') }}" method = "POST">
+         <br><br>
+         <h1>New Staff Account</h1>
+         <br><br><br>
+         Name
+         <input type = "text" name = "name" /><br><br>
+         Position
+         <input type = "text" name = "position" /><br><br>
+         <input type = "submit" value = "register" />
+      </form>
+   </div>
+   </body>
+</html>

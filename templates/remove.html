@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+   <body>
+   <div align="center">
+   <br>
+      <a href = "\staff">
+            <img src="{{url_for('static', filename='images/dashboard.jpg')}}" />
+      </a>
+   <br><br>
+      <h1>Remove Staff Account</h1>
+      <form action = "{{ url_for('delete') }}" method = "POST">
+         <br><br><br>
+          ID
+         <input type = "text" name = "id" /></br></br>
+         <input type = "submit" value = "delete" />
+      </form>
+    </div>
+   </body>
+</html>
