@@ -27,5 +27,8 @@ MySQL Database with table having following properties
 - id (Primary Key)
 - name
 - position
+
+### Vote of thanks
+I thank my professors at Coventry University for helping with the project
   
  
