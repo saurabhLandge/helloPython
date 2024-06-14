@@ -2,9 +2,9 @@
 
 ### Project Overview
 
-This project contains web application to manipulate data from Database of employees. 
-We also use World Time API to display time in our web application
-We also use unittest python library to execute test cases
+This project contains web application to manipulate data from Database of employees.
+We also use World Time API to display time in our web application.
+We also use unittest python library to execute test cases.
 
 ### Tools Used in the project
 - Windows 11 Operating System
