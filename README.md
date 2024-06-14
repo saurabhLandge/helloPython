@@ -28,7 +28,5 @@ MySQL Database with table having following properties
 - name
 - position
 
-### Vote of thanks
-I thank my professors at Coventry University for helping with the project
-  
+
  
