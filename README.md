@@ -23,7 +23,7 @@ The IDE environment is set to the following version
 - Flask-MySQL : Version 1.5.2
 
 ### Database details
-MySQL Database with a table having following properties
+MySQL Database with table having following properties
 - id (Primary Key)
 - name
 - position
